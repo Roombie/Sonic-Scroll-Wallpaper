@@ -1,0 +1,29 @@
+# Ignore image files outside the assets folder
+*.jpeg
+*.jpg
+*.png
+*.gif
+
+# Allow images inside the assets folder
+!assets/**
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor-specific files
+.vscode/
+*.log
+*.tmp
+
+# Compressed or exported files
+*.zip
+*.rar
+*.7z
+*.exe
+*.pkg
+*.wpk
+
+# Node.js (in case a local server or tools are added later)
+node_modules/
